@@ -37,7 +37,9 @@ def getParams():
     row.Телефон = phone
     row.Статус = "Лид"
 
-    return ()
+    stroka = name + ", " + email + ", " + phone
+
+    return (stroka)
 
 
 if __name__ == '__main__':
